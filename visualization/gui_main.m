@@ -367,6 +367,7 @@ function export_xls(handle,~,base)
     set(handle,'backg',color)
 end
 function export_thumbs(handle,~,base)
+    name = '';
     color = get(handle,'backg');
     set(handle,'backgroundcolor',[1 .5 .5])
     drawnow;
